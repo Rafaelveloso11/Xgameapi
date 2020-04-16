@@ -1,17 +1,19 @@
 ﻿using System;
-using XGame.Domain.Enum;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using XGame.Domain.ValueObjects;
 
-namespace Xgames.Domain.Entities
+namespace XGame.Domain.Arguments.Jogador
 {
-    public class Jogador
+    public class AdicionarJogadorRequest
     {
-        public Guid Id { get; set; }
         public Nome Nome { get; set; }
 
         public string Senha { get; set; }
         public Email Email { get; set; }
 
-        public EnumSituacaoJogador Status { get; set; }
+     
     }
 }
