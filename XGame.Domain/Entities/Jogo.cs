@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace xgames.domain.Entities
 {
-    public class Jogo
+    public class Jogos
     {
         public Guid id { get; set; }
         public string Nome { get; set; }
@@ -14,5 +14,6 @@ namespace xgames.domain.Entities
         public string Produtora { get; set; }
         public string Distribuidora { get; set; }
         public string Genero { get; set; }
+        public string Site { get; set; }
     }
 }

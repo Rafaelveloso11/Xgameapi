@@ -7,7 +7,7 @@ using XGame.Domain.Entities;
 
 namespace xgames.domain.Entities
 {
-    public class MeusJogos
+    public class MeuJogo
     {
         public Guid Id { get; set; }
         public JogoPlataforma JogoPlataforma { get; set; }
